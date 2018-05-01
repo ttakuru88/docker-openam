@@ -1,4 +1,4 @@
-FROM tomcat:8-jre8
+FROM tomcat:8.0-jre8
 MAINTAINER Christoph Dwertmann <christoph.dwertmann@vaultsystems.com.au>
 RUN wget https://github.com/OpenRock/OpenAM/releases/download/13.0.0/OpenAM-13.0.0.zip && \
     unzip -d unpacked *.zip && \
